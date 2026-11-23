@@ -3,7 +3,7 @@ title: Tutorial 2 · Reproducing the benchmark
 description: Find the preprocessing and integration commands for each benchmark dataset and method.
 ---
 
-Run each experiment from the `BSMO3` project root. Find your dataset ID below, then open the method you want to run.
+Run each experiment from the project root. Find your dataset ID below, then open the method you want to run.
 
 ## Run one dataset
 

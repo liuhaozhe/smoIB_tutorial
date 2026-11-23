@@ -15,7 +15,7 @@ Set up the environment, prepare the data, and confirm the method and dataset ver
 
 ## Run SpatialGlue on one dataset
 
-To run SpatialGlue on the `DBIT_MM_BRN_00_A1` dataset, start in the `BSMO3` project root. First, run the RNA and ADT preprocessing script with the dataset ID.
+To run SpatialGlue on the `DBIT_MM_BRN_00_A1` dataset, start in the project root. First, run the RNA and ADT preprocessing script with the dataset ID.
 
 ```bash
 python Scripts/Preprocessing/spatialglue/preprocess_rna_adt.py \

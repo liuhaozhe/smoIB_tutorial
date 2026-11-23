@@ -5,7 +5,7 @@ description: Use SpatialGlue to integrate spatial RNA and protein data from huma
 
 ## Integrate spatial RNA and protein data with SpatialGlue
 
-This tutorial uses human lymph node sample A1 (`VCYT_HS_LND_00_A1`). You will preprocess the data once and use the same inputs to train SpatialGlue with 20 random seeds. Compare the resulting domain maps to see how consistently the runs identify follicles, the cortex, and the medullary sinuses. Run all commands from the **BSMO3 project root**. All project paths below are relative to that directory.
+This tutorial uses human lymph node sample A1 (`VCYT_HS_LND_00_A1`). You will preprocess the data once and use the same inputs to train SpatialGlue with 20 random seeds. Compare the resulting domain maps to see how consistently the runs identify follicles, the cortex, and the medullary sinuses. Run all commands from the **project root**. All project paths below are relative to that directory.
 
 ### Step 1. Check the sample, modalities, and reference annotations
 
@@ -66,7 +66,7 @@ This example reads `Outputs/Integration/SpatialGlue/VCYT_HS_LND_00_A1/rna_adt/10
 
 ### Run all datasets with `run_all.py`
 
-From the BSMO3 project root, activate the project environment and run the batch script. These commands assume that `deployment/` and `BSMO3/` share a parent directory.
+From the project root, activate the project environment and run the batch script. These commands assume that `deployment/` and the project directory share a parent directory.
 
 ```bash
 source ../deployment/benchmark-pyg/activate.sh
