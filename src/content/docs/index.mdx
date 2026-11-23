@@ -1,0 +1,53 @@
+---
+title: Spatial multi-omics Integration Benchmarking
+head:
+  - tag: title
+    content: Spatial multi-omics Integration Benchmarking
+description: A guide to preparing spatial multi-omics data, running integration methods, evaluating their outputs, and reproducing benchmark experiments.
+next:
+  label: Environment setup
+---
+
+<div lang="en">
+
+Here, we present a benchmarking framework for spatial domain identification, comparing 14 representative methods across 15 datasets spanning RNA–ATAC and RNA–protein modalities, with performance summarized across 20 random seeds. The framework evaluates agreement with reference annotations where available, embedding structure, neighborhood preservation, and spatial coherence.
+
+This tutorial outlines how to run and compare spatial multi-omics integration methods. Start with one dataset to learn how to prepare the inputs, run a method, and check its output. Then extend the workflow to reproduce comparisons across methods and datasets.
+
+:::note[Tutorial status]
+These guidelines currently describe the workflow and the checklist for each step, as well as links to papers, code, and datasets, environments and sample commands for reproducing the results.
+:::
+
+## Start here
+
+For your first analysis, work through the guides in order.
+
+1. Check software versions, dependencies, and hardware requirements in [Environment setup](guides/installation/).
+2. Obtain the data and check the modalities, sample identifiers, and spatial coordinates with the [Data preparation guide](guides/data-preparation/).
+3. Follow the [Quick start](guides/getting-started/) to see what a minimal run involves and how to tell whether it succeeded.
+4. Follow one dataset from input files to result figures in [Single-dataset analysis](tutorials/single-dataset/).
+5. Extend the analysis to multiple methods, datasets, and repeated runs in [Reproducing the benchmark](tutorials/benchmark-reproduction/).
+
+## Choose a guide
+
+| Task | Guide |
+| --- | --- |
+| Complete a first run | [Quick start](guides/getting-started/) |
+| Run an integration method on one dataset | [Tutorial 1 · Single-dataset analysis](tutorials/single-dataset/) |
+| Reproduce method comparisons across datasets | [Tutorial 2 · Reproducing the benchmark](tutorials/benchmark-reproduction/) |
+| Understand how the methods work and when to use them | [Methods and comparisons](paper/methods/) |
+| Troubleshoot installation or runtime issues | [Frequently asked questions](reference/faq/) |
+
+## What to record for each run
+
+Record the data and code versions, software environment, configuration, and random seeds. Keep these records with the raw outputs and evaluation results so you can trace each figure back to the run that produced it. The examples will include file formats, parameters, and expected outputs alongside the code.
+
+## Citation
+
+If any part of the project is useful for your work please cite:
+
+Liu H, Cai W, Georgaka S, Zhou H. *Benchmarking spatial domain identification across spatial multi-omics integration methods*.
+
+sample link
+
+</div>
