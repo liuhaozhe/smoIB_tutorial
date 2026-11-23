@@ -6,7 +6,7 @@ description: Check data sources, modalities, sample identifiers, and input forma
 Before running an integration method, check that the input files are complete, that observations match across modalities where required, and that the data support the comparison you want to make.
 
 :::note[Dataset availability]
-The benchmark dataset list, download links, licenses, and checksums are pending confirmation. The guidelines below apply across datasets and file formats.
+Refer to the original article for the list of benchmark datasets, download links, licenses, and checksums. The guidelines below apply across datasets and file formats.
 :::
 
 ## 1. Download and document the data
